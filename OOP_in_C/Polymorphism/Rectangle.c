@@ -20,7 +20,7 @@ static unsigned int Rectangle_area_(Shape const *const me) {
 }
 static void Rectangle_draw_(Shape const *const me) {
   Rectangle const *const me_ = (Rectangle const *)me;
-  printf("Rectangle_draw_(x=%d,y=%d,width=%d,height=%d)\n", me_->super.x,
+  printf("\nRectangle_draw_(x=%d,y=%d,width=%d,height=%d)\n", me_->super.x,
          me_->super.y, me_->width, me_->height);
 }
 

@@ -19,7 +19,7 @@ static unsigned int Circle_area_(Shape const *const me) {
 }
 static void Circle_draw_(Shape const *const me) {
   Circle const *const me_ = (Circle const *)me;
-  printf("Circle_draw_(x=%d,y=%d,width=%d )\n", me_->super.x, me_->super.y,
+  printf("\nCircle_draw_(x=%d,y=%d,radius=%d )\n", me_->super.x, me_->super.y,
          me_->radius);
 }
 

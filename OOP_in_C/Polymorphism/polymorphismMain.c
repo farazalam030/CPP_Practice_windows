@@ -20,5 +20,9 @@ int main(int argc, char **argv) {
   printf("Area c1 = %d\n", Shape_area(&c1.super));
   printf("Area c2 = %d\n", Shape_area(&c2.super));
 
+  Shape_draw(&r1.super);
+  Shape_draw(&r2.super);
+  Shape_draw(&c1.super);
+  Shape_draw(&c2.super);
   return 0;
 }
